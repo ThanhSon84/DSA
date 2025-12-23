@@ -1,3 +1,6 @@
+/*Input: n = 5
+12, 11, 13, 5, 6
+*/
 #include<iostream>
 
 using namespace std;
@@ -66,6 +69,14 @@ int main()
 
 	//Release allocated memory
 	delete[] arr;
+/* Input direct array:
+	    int arr[] = { 12, 11, 13, 5, 6 };
+    int n = sizeof(arr) / sizeof(arr[0]);
 
+    insertionSort(arr, n);
+    printArray(arr, n);
+
+    return 0;
+*/
 	return 0;
 }
